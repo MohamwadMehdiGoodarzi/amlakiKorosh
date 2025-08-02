@@ -1771,6 +1771,7 @@ body {
     gap: 1rem;
     color: #444;
     font-size: 1.4rem;
+    direction: ltr;
 }
 
 .pagination__item {
