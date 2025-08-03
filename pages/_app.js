@@ -17,13 +17,20 @@ export default function App({ Component, pageProps }) {
               <div className="sidebar__btn"></div>
           </label>
 
+          {/* <Link href="/homes" className="btn header__btn btn-brown">
+              املاک ما را مشاهده کنید
+          </Link> */}
+
+
           <div className="sidebar__bg"></div>
           <ul className="list">
               <li className="list__item">
-                  <a href="index.html" className="list__link">صفحه اصلی</a>
+                <Link href="/" className="list__link">
+                    صفحه اصلی       
+                </Link>
               </li>
               <li className="list__item">
-                  <a href="#" className="list__link">ویژگی ها</a>
+                  <Link href="/feature" className="list__link">ویژگی ها</Link>
               </li>
               <li className="list__item">
                   <a href="" className="list__link">نظرات</a>
@@ -32,7 +39,7 @@ export default function App({ Component, pageProps }) {
                   <a href="houses.html" className="list__link">خانه ها</a>
               </li>
               <li className="list__item">
-                  <a href="#" className="list__link">گالری</a>
+                  <a href="/gallery" className="list__link">گالری</a>
               </li>
           </ul>
       </div>
